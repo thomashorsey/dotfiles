@@ -65,4 +65,4 @@ cd ~/.dotfiles && git pull
 
 ### New files
 
-Refer to setup above.
+Refer/ add to setup above.
