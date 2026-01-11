@@ -18,6 +18,7 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+[ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env"
 
 alias ..='cd ..'
 alias ...='cd ../..'
