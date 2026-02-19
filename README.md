@@ -1,4 +1,4 @@
-# .dotfiles
+# dotfiles
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ brew install stow
 ### cron
 
 ``` bash
-crontab ~/.dotfiles/cron/user.cron
+crontab ~/dotfiles/cron/user.cron
 ```
 
 ### git
@@ -31,7 +31,7 @@ crontab ~/.dotfiles/cron/user.cron
 ``` bash
 brew install git gh
 rm -f ~/.gitconfig ~/.gitmessage
-cd ~/.dotfiles && stow git
+cd ~/dotfiles && stow git
 gh auth login
 ```
 
@@ -42,7 +42,7 @@ brew install bob
 bob use nightly
 mkdir -p ~/.config
 rm -rf ~/.config/nvim
-cd ~/.dotfiles && stow nvim
+cd ~/dotfiles && stow nvim
 ```
 
 ### tmux
@@ -50,14 +50,14 @@ cd ~/.dotfiles && stow nvim
 ``` bash
 brew install tmux
 rm -f ~/.tmux.conf
-cd ~/.dotfiles && stow tmux
+cd ~/dotfiles && stow tmux
 ```
 
 ### zsh
 
 ``` bash
 rm -f ~/.zshrc
-cd ~/.dotfiles && stow zsh
+cd ~/dotfiles && stow zsh
 source ~/.zshrc
 ```
 
@@ -66,7 +66,7 @@ source ~/.zshrc
 ### Existing files
 
 ``` bash
-cd ~/.dotfiles && git pull
+cd ~/dotfiles && git pull
 ```
 
 ### New files
