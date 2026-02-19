@@ -20,6 +20,12 @@ brew install stow
 
 ## Setup
 
+### cron
+
+``` bash
+crontab ~/.dotfiles/cron/user.cron
+```
+
 ### git
 
 ``` bash
@@ -53,12 +59,6 @@ cd ~/.dotfiles && stow tmux
 rm -f ~/.zshrc
 cd ~/.dotfiles && stow zsh
 source ~/.zshrc
-```
-
-### cron
-
-``` bash
-crontab ~/.dotfiles/cron/user.cron
 ```
 
 ## Update
