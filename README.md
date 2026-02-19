@@ -55,6 +55,12 @@ cd ~/.dotfiles && stow zsh
 source ~/.zshrc
 ```
 
+### cron
+
+``` bash
+crontab ~/.dotfiles/cron/user.cron
+```
+
 ## Update
 
 ### Existing files
